@@ -1,0 +1,238 @@
+{
+    "paths": {
+        "jingles": "...",
+        "mairlist_scripts": "...",
+        "news": "...",
+        "music": "...",
+        "hooks": "...",
+        "teaser": "...",
+        "mixdowns": "...",
+        "database": "...",
+        "output": "...",
+        "emergency_playlist": "..."
+    },
+    "playlist_categorys": [
+        {
+            "name": "Aktuelle Tracks",
+            "ids": [
+                "..."
+            ]
+        }
+    ],
+    "durations": {
+        "min_ramp_after_news": 5
+    },
+    "max_points": 100,
+    "use_vote_condition": false,
+    "news_offset": 0,
+    "jingle_offset": 0.2,
+    "music_fade_out_duration": 0.2,
+    "music_fade_in_duration": 0.25,
+    "music_volume_while_jingle": -5,
+    "music_volume_while_news": -8,
+    "min_jingle_distance": 1,
+    "use_song_distance": true,
+    "use_artist_distance": true,
+    "min_artist_distance": 4,
+    "min_song_distance_hour": 4,
+    "sort_songs_by_points": true,
+    "playlist_minutes_to_add": 0,
+    "first_round_timeout": 25,
+    "second_round_timeout": 25,
+    "track_search_timeout": 0,
+    "max_playlist_len_diff": 0,
+    "votes_tags": [
+        "+",
+        "-",
+        "Test"
+    ],
+    "categorizations": {
+        "less_points": 50,
+        "low_energy": 0.61,
+        "low_valence": 0.43,
+        "high_valence": 0.73,
+        "track_new": 65,
+        "track_age_middle": 98,
+        "track_age_old": 360
+    },
+    "percentage_chances": {
+        "give_new_songs_points": 100,
+        "choose_random_item": 0,
+        "remove_intro_before_ramp_with_jingle": 80
+    },
+    "teaser_dBFS": -17,
+    "blacklist": {
+        "track_ids": [
+            "..."
+        ],
+        "artists": [
+            "..."
+        ]
+    },
+    "special_playlists": [
+        {
+            "name": "DJ Session",
+            "days": [
+                4,
+                5
+            ],
+            "hours": [
+                20,
+                21,
+                22,
+                23
+            ],
+            "source_playlists": [
+                "..."
+            ],
+            "min_energy": 0.78,
+            "min_danceability": 0.48,
+            "use_similar_tempo": true,
+            "start_moderation": {
+                "file_pattern": "...",
+                "day_patterns": [
+                    {
+                        "days": [
+                            4
+                        ],
+                        "hours": [
+                            20,
+                            21,
+                            22,
+                            23
+                        ],
+                        "files": [
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "8",
+                            "9",
+                            "10",
+                            "12",
+                            "13",
+                            "14",
+                            "16",
+                            "17",
+                            "18",
+                            "19",
+                            "20",
+                            "21"
+                        ]
+                    },
+                    {
+                        "days": [
+                            5
+                        ],
+                        "hours": [
+                            20,
+                            21,
+                            22,
+                            23
+                        ],
+                        "files": [
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "8",
+                            "9",
+                            "10",
+                            "12",
+                            "16",
+                            "17",
+                            "19",
+                            "20",
+                            "21"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "jingles": {
+        "moods": [
+            {
+                "name": "high_energy",
+                "min_song_energy": 0.69
+            },
+            {
+                "name": "low_energy",
+                "max_song_energy": 0.57
+            }
+        ],
+        "seasons": [
+            {
+                "start_day": 2714400,
+                "end_day": 9525600,
+                "name": "winter"
+            },
+            {
+                "start_day": 9612000,
+                "end_day": 17496000,
+                "name": "spring"
+            },
+            {
+                "start_day": 17582400,
+                "end_day": 25466400,
+                "name": "summer"
+            },
+            {
+                "start_day": 25552800,
+                "end_day": 33264000,
+                "name": "autumn"
+            },
+            {
+                "start_day": 33350400,
+                "end_day": 34214400,
+                "name": "winter"
+            }
+        ],
+        "daytimes": [
+            {
+                "name": "night",
+                "start_hour": 0,
+                "end_hour": 5
+            },
+            {
+                "name": "morning",
+                "start_hour": 5,
+                "end_hour": 11
+            },
+            {
+                "name": "noon",
+                "start_hour": 11,
+                "end_hour": 18
+            },
+            {
+                "name": "eve",
+                "start_hour": 18,
+                "end_hour": 24
+            }
+        ],
+        "weektimes": [
+            {
+                "name": "weekend",
+                "days": [
+                    5,
+                    6
+                ]
+            }
+        ],
+        "files": [
+            {
+                "is_special": true,
+                "name": "Es ist 0 Uhr",
+                "text": "...",
+                "filename": "0 Uhr.wav",
+                "tags": [
+                    "news.0"
+                ]
+            }
+        ]
+    }
+}

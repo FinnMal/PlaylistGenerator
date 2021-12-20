@@ -1,0 +1,82 @@
+{
+    "news": {
+        "Artist": "Radio JFM",
+        "Duration": 120,
+        "Attributes": {
+            "active": "ja"
+        },
+        "Amplification": 0,
+        "Levels": {
+            "Loudness": -13.1820907592773,
+            "TruePeak": 2.6613667011261,
+            "Peak": 2.62748885154724
+        },
+        "DatabaseID": 0,
+        "Markers": {
+            "StartNext": -1
+        },
+        "Title": "News",
+        "Timing": "Hard",
+        "Type": "News",
+        "State": "Normal",
+        "Filename": "...",
+        "Class": "File"
+    },
+    "news_jingle": {
+        "Artist": "Radio JFM",
+        "Duration": 1.368,
+        "Attributes": {
+            "active": "ja"
+        },
+        "Amplification": -0.0409790351986885,
+        "Levels": {
+            "Loudness": -8.87694454193115,
+            "TruePeak": 0.0650772899389267,
+            "Peak": 0.0409790351986885
+        },
+        "StartActions": {
+            "Items": [
+                {
+                    "Class": "EncoderConnect"
+                }
+            ]
+        },
+        "DatabaseID": 0,
+        "Title": "Jingle",
+        "Timing": "Backtimed",
+        "Type": "Jingle",
+        "State": "Normal",
+        "Filename": "...",
+        "Class": "File",
+        "Customized": true,
+        "LinkedTo": "Playlist"
+    },
+    "advertisement": {
+        "Artist": "Radio JFM",
+        "Duration": 1.456,
+        "Levels": {
+            "Loudness": -13.6899375915527,
+            "TruePeak": 0,
+            "Peak": 0
+        },
+        "Title": "START_AD_BREAK",
+        "Type": "Advertising",
+        "State": "Normal",
+        "Filename": "..",
+        "Class": "File",
+        "Options": [
+            "NoOverlap",
+            "PreventFloat"
+        ],
+        "Customized": true
+    },
+    "teaser": {
+        "Artist": "Radio JFM",
+        "Title": "TEASER",
+        "Type": "Voice",
+        "State": "Normal",
+        "Class": "File",
+        "LinkedTo": "Playlist",
+        "Customized": true
+    }
+}
